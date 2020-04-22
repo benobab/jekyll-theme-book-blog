@@ -643,6 +643,9 @@
 		margin-left: 375px;
 		> section {
 			text-align: center;
+			p {
+				text-align: justify;
+			}
 		}
 		> article {
 			text-align: left;
