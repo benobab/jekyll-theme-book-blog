@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-{%- assign _sections = site.siwise | sort: 'order' -%}
+{%- assign _sections = page.sections | sort: 'order' -%}
 {%- include header.html scrolly_nav=_sections -%}
 
 <!-- Main -->
