@@ -34,4 +34,6 @@ google_analytics:
 
 # The following settings are NECESSARY for the Prologue theme to run:
 theme: jekyll-theme-book-blog
-collections: [sections]
+collections:
+  sections:
+    output: true
