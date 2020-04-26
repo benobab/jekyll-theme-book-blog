@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-{%- assign _sections = site[page.sections] -%}
+{%- assign _sections = site[page.sections] | sort: 'order' -%}
 {%- include header.html scrolly_nav=_sections -%}
 
 <!-- Main -->
